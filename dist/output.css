@@ -924,7 +924,7 @@ video {
 }
 
 .bg-hero2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.99)) , url('/img/hero1.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.99)) , url('/dist/img/hero1.webp');
 }
 
 .bg-cover {

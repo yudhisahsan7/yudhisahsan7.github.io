@@ -8,8 +8,8 @@ module.exports = {
         'poppins': ["'Poppins'", 'sans-serif']
       },
       backgroundImage: {
-        'hero': "url('/img/hero.jpg')",
-        'hero2': "linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.99)) , url('/img/hero1.jpg')"
+        'hero': "url('/dist/img/hero1.webp')",
+        'hero2': "linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.99)) , url('/dist/img/hero1.webp')"
       } ,
       spacing: {
         '128': '32rem'
