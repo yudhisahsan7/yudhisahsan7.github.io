@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="dist/output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Poppins:wght@200;400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body class="bg-[#121023] text-white">
+  <div class="navbar md:hidden flex bg-[#161627] z-30 justify-between items-center px-12 py-4 sticky top-0 ">
+    <div class="left-nav">
+      <h2 class="font-quicksand text-orange-500 text-l md:text-2xl cursor-pointer italic"><a href=""> Yudhis <span
+            class="text-white ">Ahsan</span> </a>
+      </h2>
+    </div>
+    <div class="right-nav flex">
+
+      <ul class="list-none md:hidden">
+        <li><i class="hamburger block bi bi-list cursor-pointer"></i></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <section id="home">
+    <div class="hero bg-hero2 bg-cover text-white px-12 pb-80 md:pt-12 md:px-28 md:pb-96">
+      <div class="flex-col justify-center pt-16 md:pt-0 px-auto md:flex md:px-0">
+        <div class="left-hero font-poppins mt-36 flex-col justify-center">
+          <img class="rounded-full w-40 mr-auto ml-auto mb-6 md:w-64 border-4 md:border-8 border-orange-500"
+            src="dist/img/ava.png" alt="">
+          <h1 class="font-bold text-4xl mb-4 flex justify-center md:text-6xl">Yudhis <span class="ml-4">Ahsan</span>
+          </h1>
+          <h3 class="flex justify-center mb-4 md:mb-8 text-l md:text-xl">I'm<span class="informatics ml-2 text-orange-500"></span></h3>
+          <div class="btn flex justify-center mb-4">
+            <button
+              class="bg-transparent border-2 border-orange-500 rounded-full px-11 py-3 text-white duration-300 hover:bg-white hover:text-orange-800 hover:border-white md:px-14">
+              Download Resume</button>
+          </div>
+          <div class="link flex gap-4 justify-center pt-6 md:pt-8">
+            <a href="https://www.instagram.com/yudhisahsan/"><i
+                class="bi bi-instagram social-icon"></i></a>
+            <a href=""><i
+                class="bi bi-twitter social-icon"></i></a>
+            <a href="https://www.facebook.com/ydhs.ahsn0723/"><i
+                class="bi bi-facebook social-icon"></i></a>
+            <a href=""><i
+                class="bi bi-github social-icon"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="navbar hidden md:flex bg-[#161627] justify-between items-center px-12 md:px-28 py-4 sticky top-0 ">
+    <div class="left-nav">
+      <h2 class="font-quicksand text-orange-500 text-2xl cursor-pointer italic">Yudhis <span
+          class="text-white ">Ahsan</span>
+      </h2>
+    </div>
+    <div class="right-nav flex">
+      <ul class="hidden cursor-pointer list-none gap-6 md:flex font-poppins">
+        <li class="navbar-list"><a href="#home">Home</a></li>
+        <li class="navbar-list"><a href="#about">About</a></li>
+        <li class="navbar-list"><a href="#skill">Skills</a></li>
+        <li class="navbar-list"><a href="#portfolio">Portfolio</a></li>
+        <li class="navbar-list"><a href="#contact">Contact</a></li>
+      </ul>
+      <ul class="list-none md:hidden">
+        <li><i class="hamburger block bi bi-list cursor-pointer"></i></li>
+      </ul>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="about pt-6 md:pt-12">
+      <h1 class="text-xl font-thin underline decoration-1 underline-offset-8 flex justify-center md:text-4xl">About Me
+      </h1>
+      <div class="grid grid-cols-1 items-center px-12 md:grid-cols-2">
+        <div class="right-about flex relative">
+          <img class="-z-10 md:scale-100" src="dist/img/profil.png" alt="">
+          <span class="absolute -z-20 -bottom-20 left-1/2 -translate-x-1/2 lg:left-1/3 lg:right-20 scale-75 lg:scale-100 lg:-bottom-0">
+            <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path fill="#f97316"
+                d="M37.9,-48.2C50.4,-43.1,62.8,-33.8,64.4,-22.4C66.1,-11.1,57,2.2,54,19.5C51.1,36.7,54.3,57.9,46.3,71.5C38.3,85,19.1,91,4.1,85.3C-10.8,79.6,-21.7,62.2,-36.3,50.8C-50.9,39.4,-69.3,33.9,-72,23.8C-74.7,13.7,-61.8,-1.1,-52.7,-13.5C-43.7,-25.8,-38.5,-35.8,-30.3,-42.3C-22.2,-48.9,-11.1,-52,0.8,-53.1C12.7,-54.2,25.4,-53.3,37.9,-48.2Z"
+                transform="translate(100 100) scale(1)" />
+            </svg>
+          </span>
+        </div>
+        <div class="left-about font-poppins text-xs flex-col gap-11 pl-8 pt-10 md:pt-0 md:text-base">
+          <p>Currently I am a Computer Science bachelor student at Diponegoro University, Now I am in the third
+            semester. I am
+            very interested in Coding, especially in Web Development, I can use programming and markup languages ​​such
+            as HTML, CSS, Javascript, Python, etc.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skill">
+    <div class="skill justify-center pb-48 pt-32">
+      <h1
+        class="flex justify-center underline decoration-1 underline-offset-8 mt-8 text-xl md:text-4xl font-poppins font-thin">
+        Skills
+      </h1>
+      <div class="flex flex-wrap justify-center gap-16 mt-12 md:gap-36">
+        <div class="skill-icon">
+          <img class="w-14 h-14 m-auto md:w-24 md:h-24" src="dist/img/html.png" alt="">
+          <h1 class="mt-4 flex justify-center font-bold">HTML</h1>
+        </div>
+        <div class="skill-icon">
+          <img class="w-14 h-14 m-auto md:w-24 md:h-24" src="dist/img/css-3.png" alt="">
+          <h1 class="mt-4 flex justify-center font-bold">CSS</h1>
+        </div>
+        <div class="skill-icon">
+          <img class="w-14 h-14 m-auto md:w-24 md:h-24" src="dist/img/js.png" alt="">
+          <h1 class="mt-4 flex justify-center font-bold">Javascript</h1>
+        </div>
+        <div class="skill-icon">
+          <img class="w-14 h-14 m-auto md:w-24 md:h-24" src="dist/img/Bootstrap_logo.svg" alt="">
+          <h1 class="mt-4 flex justify-center font-bold">Bootstrap</h1>
+        </div>
+        <div class="skill-icon">
+          <img class="w-14 h-14 m-auto md:w-24 md:h-24" src="dist/img/Tailwind CSS.svg" alt="">
+          <h1 class="mt-4 flex justify-center font-bold">Tailwind CSS</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h1
+      class="flex justify-center underline decoration-1 underline-offset-8 mt-8 text-xl md:text-4xl font-poppins font-thin">
+      Portfolio</h1>
+    <div class="portfolio justify-center pb-48 mt-8">
+      <div class="flex flex-wrap justify-center">
+        <div
+          class="card-porto">
+          <img class="flex p-4 rounded-3xl" src="dist/img/project-1.png" alt="">
+          <h1 class="flex justify-center mt-8 font-bold text-xl">Portfolio Website</h1>
+          <h1 class="ml-8 md:ml-12 flex mt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni,
+            perferendis.</h1>
+          <h1 class="flex justify-center mb-8 mt-8">HTML | CSS | Javascript</h1>
+          <div class="btn justify-center flex mb-8">
+            <button
+              class="bg-transparent border-orange-500 border-2 rounded-md px-4 py-1 text-white mr-4 duration-300 hover:border-white hover:bg-white hover:text-orange-800 md:px-7">
+              Github</button>
+            <button
+              class="bg-orange-500 rounded-md px-6 py-1 md:px-9 text-white duration-300 hover:bg-white hover:text-orange-800">
+              Visit</button>
+          </div>
+        </div>
+        <div
+          class="card-porto">
+          <img class="flex pl-4 pr-4 pt-4 pb-4 rounded-3xl" src="dist/img/project-5.png" alt="">
+          <h1 class="flex justify-center mt-8 font-bold text-xl">Netflix Landing Page Clone</h1>
+          <h1 class="ml-8 md:ml-12 flex justify-center mt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Magni,
+            perferendis.</h1>
+          <h1 class="flex justify-center mb-8 mt-8">HTML | CSS | Bootstrap</h1>
+          <div class="btn justify-center flex mb-8">
+            <button
+              class="bg-transparent border-orange-500 border-2 rounded-md px-4 py-1 text-white mr-4 duration-300 hover:border-white hover:bg-white hover:text-orange-800 md:px-7">
+              Github</button>
+            <button
+              class="bg-orange-500 rounded-md px-6 py-1 md:px-9 text-white duration-300 hover:bg-white hover:text-orange-800">
+              Visit</button>
+          </div>
+        </div>
+        <div
+          class="card-porto">
+          <img class="flex pl-4 pr-4 pt-4 pb-4 rounded-3xl" src="dist/img/project-2.png" alt="">
+          <h1 class="flex justify-center mt-8 font-bold text-xl">Netflix UI Clone</h1>
+          <h1 class="ml-8 md:ml-12 flex justify-center mt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Magni,
+            perferendis.</h1>
+          <h1 class="flex justify-center mb-8 mt-8">HTML | CSS | Bootstrap</h1>
+          <div class="btn justify-center flex mb-8">
+            <button
+              class="bg-transparent border-orange-500 border-2 rounded-md px-4 py-1 text-white mr-4 duration-300 hover:border-white hover:bg-white hover:text-orange-800 md:px-7">
+              Github</button>
+            <button
+              class="bg-orange-500 rounded-md px-6 py-1 md:px-9 text-white duration-300 hover:bg-white hover:text-orange-800">
+              Visit</button>
+          </div>
+        </div>
+        <div
+          class="card-porto">
+          <img class="flex pl-4 pr-4 pt-4 pb-4 rounded-3xl" src="dist/img/project-4.png" alt="">
+          <h1 class="flex justify-center mt-8 font-bold text-xl">Film Databases</h1>
+          <h1 class="ml-8 md:ml-12 flex justify-center mt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Magni,
+            perferendis.</h1>
+          <h1 class="flex justify-center mb-8 mt-8">HTML | CSS | Javascript</h1>
+          <div class="btn justify-center flex mb-8">
+            <button
+              class="bg-transparent border-orange-500 border-2 rounded-md px-4 py-1 text-white mr-4 duration-300 hover:border-white hover:bg-white hover:text-orange-800 md:px-7">
+              Github</button>
+            <button
+              class="bg-orange-500 rounded-md px-6 py-1 md:px-9 text-white duration-300 hover:bg-white hover:text-orange-800">
+              Visit</button>
+          </div>
+        </div>
+        <div
+          class="card-porto">
+          <img class="flex pl-4 pr-4 pt-4 pb-4 rounded-3xl" src="dist/img/project-3.png" alt="">
+          <h1 class="flex justify-center mt-8 font-bold text-xl">Tokopedei Marketplace</h1>
+          <h1 class="ml-8 md:ml-12 flex justify-center mt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Magni,
+            perferendis.</h1>
+          <h1 class="flex justify-center mb-8 mt-8">HTML | CSS | Javascript</h1>
+          <div class="btn justify-center flex mb-8">
+            <button
+              class="bg-transparent border-orange-500 border-2 rounded-md px-4 py-1 text-white mr-4 duration-300 hover:border-white hover:bg-white hover:text-orange-800 md:px-7">
+              Github</button>
+            <button
+              class="bg-orange-500 rounded-md px-6 py-1 md:px-9 text-white duration-300 hover:bg-white hover:text-orange-800">
+              Visit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h1
+      class="flex justify-center underline decoration-1 underline-offset-8 mt-8 text-xl md:text-4xl font-poppins font-thin mb-12">
+      Contact</h1>
+    <div
+      class="grid grid-cols-1 place-items-center items-center px-12 pb-56 md:flex md:justify-center md:gap-24 font-poppins">
+      <div class="left-contact grid grid-cols-1 gap-8 pb-12">
+        <div
+          class="email rounded-2xl border-2 border-slate-800 duration-300 hover:bg-transparent bg-slate-800 w-72 flex-col p-6">
+          <i class="bi bi-envelope flex justify-center pb-5"></i>
+          <h1 class="flex justify-center font-bold pb-3">Email</h1>
+          <h1 class="flex justify-center font-thin pb-3 opacity-50">yudhisahsan3@gmail.com</h1>
+          <a class="flex justify-center text-orange-500 text-opacity-70" href="">Send a Message</a>
+        </div>
+        <div
+          class="whatsapp rounded-2xl border-2 border-slate-800 duration-300 hover:bg-transparent bg-slate-800 w-72 flex-col p-6">
+          <i class="bi bi-whatsapp flex justify-center pb-5"></i>
+          <h1 class="flex justify-center font-bold pb-3">Whatsapp</h1>
+          <h1 class="flex justify-center font-thin pb-3 opacity-50">08990404567</h1>
+          <a class="flex justify-center text-orange-500 text-opacity-70" href="">Send a Message</a>
+        </div>
+      </div>
+      <div class="right-contact">
+        <div class="nama pb-4 flex justify-center">
+          <input
+            class="cursor-text border-2 border-orange-800 border-opacity-80 bg-transparent rounded-md p-3 w-72 md:p-4 md:w-128"
+            type="text" placeholder="Full Name">
+        </div>
+        <div class="email pb-4">
+          <input
+            class="cursor-text border-2 border-orange-800 border-opacity-80 bg-transparent rounded-md p-3 w-72 md:p-4 md:w-128"
+            type="email" placeholder="Email">
+        </div>
+        <div class="message pb-4">
+          <input
+            class="cursor-text border-2 border-orange-800 border-opacity-80 bg-transparent rounded-md p-3 pb-20 w-72 md:p-4 md:pb-32 md:w-128"
+            type="text" placeholder="Message">
+        </div>
+        <div class="btn-send">
+          <button class="bg-orange-500 rounded-lg text-black px-5 py-3 duration-300 hover:bg-white">Send
+            Message</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="bg-gray-900 text-center font-poppins pt-6 pb-6 italic">
+    <p class="pb-2">Created with <span class="footer-text"></span> By</p>
+    <p class="pb-2">Muhammad Ahsan Yudhistira</p>
+    <p class="pb-2">A Frontend Developer</p>
+  </div>
+
+  <div class="hamburger-menu fixed mt-14 inset-y-0 top-0 right-0 w-52 h-72 text-white bg-slate-800 hidden">
+    <ul class="flex-col pt-8">
+      <li class="flex justify-center pb-6 font-semibold duration-200 hover:text-orange-500"><a href="#home"> Home </a>
+      </li>
+      <li class="flex justify-center pb-6 font-semibold duration-200 hover:text-orange-500"><a href="#about"> About </a>
+      </li>
+      <li class="flex justify-center pb-6 font-semibold duration-200 hover:text-orange-500"><a href="#skill"> Skills
+        </a></li>
+      <li class="flex justify-center pb-6 font-semibold duration-200 hover:text-orange-500"><a href="#portfolio">
+          Portfolio </a></li>
+      <li class="flex justify-center pb-6 font-semibold duration-200 hover:text-orange-500"><a href="#contact"> Contact
+        </a></li>
+    </ul>
+  </div>
+  <script src="dist/script.js"></script>
+  <script src="dist/autotyping.min.js"></script>
+</body>
+
+</html>
